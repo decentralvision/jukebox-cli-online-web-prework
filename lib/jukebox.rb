@@ -22,6 +22,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song = gets.chomp
+  songs.collect{|song| song.split(".")}
 end
 
 def list(songs_arr)
