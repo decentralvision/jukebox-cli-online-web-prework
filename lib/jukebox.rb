@@ -50,9 +50,8 @@ def run
       list
     elsif input == "help"
       help
-    elsif 
     end
-
+  break
 end
 
 run
