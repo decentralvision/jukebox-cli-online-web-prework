@@ -26,6 +26,9 @@ def play(songs)
     "Playing #{input}"
   elsif input <= songs.size -1
     "Playing #{songs[input+1]}"
+  else
+    "Invalid"
+  end
 end
 
 def list(songs_arr)
