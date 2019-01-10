@@ -23,7 +23,7 @@ def play
 end
 
 def list(songs_arr)
-  songs_arr.each {|song| puts song}
+  songs_arr.each_with_index {|song| puts song}
 end
 
 def exit
