@@ -22,7 +22,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   input = gets.chomp
-  if songs.find
+  if songs.find {|song| song == input}
 end
 
 def list(songs_arr)
