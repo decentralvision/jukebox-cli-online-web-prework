@@ -42,4 +42,4 @@ end
 def run
   help
   puts "Please enter a command:"
-  gets.chomp
+  input = gets.chomp
