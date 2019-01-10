@@ -51,6 +51,8 @@ def run
       list
     elsif input == "help"
       help
+    else
+      run
     end
   break
   end
