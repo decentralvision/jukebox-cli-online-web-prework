@@ -49,3 +49,6 @@ def run
     if input == "play"
       play
     elsif input == "list"
+      list
+    elsif input == "help"
+      help
