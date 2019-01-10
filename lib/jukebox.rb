@@ -31,8 +31,8 @@ def play(songs)
   end
 end
 
-def list(songs_arr)
-  songs_arr.each_with_index {|song, i| puts "#{i}. #{song}"}
+def list(songs)
+  songs.each_with_index {|song, i| puts "#{i}. #{song}"}
 end
 
 def exit
