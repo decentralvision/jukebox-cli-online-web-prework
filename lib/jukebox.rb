@@ -18,6 +18,7 @@ def help
 "- exit : exits this program"].each {|message| puts message}
 
 end
+help
 
 def play
 end
