@@ -55,5 +55,6 @@ def run
     end
   end
   exit
-  
 end
+
+run
