@@ -53,6 +53,7 @@ def run(songs)
       help
     end
   end
+  exit
 end
 
 run(songs)
