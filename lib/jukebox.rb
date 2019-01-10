@@ -51,9 +51,6 @@ def run(songs)
       list(songs)
     elsif input == "help"
       help
-    else
-      puts "Please enter a command:"
-      input = gets.chomp
     end
   end
 end
