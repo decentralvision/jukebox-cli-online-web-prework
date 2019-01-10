@@ -24,7 +24,7 @@ def play(songs)
   input = gets.chomp
   if songs.find {|song| song == input}
     "Playing #{input}"
-  elsif input <= songs.size
+  elsif input <= songs.size -1
     "Playing #{songs[input+1]}"
 end
 
