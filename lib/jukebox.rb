@@ -41,20 +41,17 @@ end
 
 def run
   help
-  puts "Please enter a command:"
-  input = gets.chomp
-  if input == "play"
-    play
-  elsif input == "list"
-    list
-  elsif input == "help"
-    help
-  elsif input == "exit"
-    exit
-    break
-  else
-    run
-  end
+  while input != "exit"
+    puts "Please enter a command:"
+    input = gets.chomp
+    if input == "play"
+      play
+    elsif input == "list"
+      list
+    elsif input == "help"
+      help
+    end
+
 end
 
 run
