@@ -55,5 +55,3 @@ def run(songs)
   end
   exit
 end
-
-run(songs)
