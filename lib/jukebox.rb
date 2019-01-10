@@ -50,6 +50,7 @@ def run
   elsif input == "help"
     help
   elsif input == "exit"
+    exit
     break
   else
     run
