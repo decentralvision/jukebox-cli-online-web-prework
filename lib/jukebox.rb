@@ -44,6 +44,8 @@ def run
   puts "Please enter a command:"
   input = gets.chomp
   while input != "exit"
+    puts "Please enter a command:"
+    input = gets.chomp
     if input == "play"
       play
     elsif input == "list"
