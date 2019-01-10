@@ -52,3 +52,4 @@ def run
       list
     elsif input == "help"
       help
+    end
