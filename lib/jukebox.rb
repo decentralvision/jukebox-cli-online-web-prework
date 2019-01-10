@@ -52,8 +52,7 @@ def run
   elsif input == "exit"
     break
   else
-    puts "Please enter a command:"
-    input = gets.chomp
+    run
   end
 
 end
