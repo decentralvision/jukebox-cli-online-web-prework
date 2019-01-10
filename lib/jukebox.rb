@@ -23,11 +23,11 @@ def play(songs)
   puts "Please enter a song name or number:"
   input = gets.chomp
   if songs.find {|song| song == input}
-    "Playing #{input}"
+    puts "Playing #{input}"
   elsif input.to_i <= (songs.size)-1
     puts "Playing #{songs[(input.to_i)+1]}"
   else
-    "Invalid"
+    puts "Invalid"
   end
 end
 
