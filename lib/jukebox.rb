@@ -36,4 +36,5 @@ def list(songs_arr)
 end
 
 def exit
+  puts "Goodbye"
 end
