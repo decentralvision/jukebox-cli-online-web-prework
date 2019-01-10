@@ -51,8 +51,11 @@ def run
     help
   elsif input == "exit"
     break
+  else
+    puts "Please enter a command:"
+    input = gets.chomp
   end
-  exit
+
 end
 
 run
