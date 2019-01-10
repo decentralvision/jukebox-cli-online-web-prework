@@ -38,3 +38,8 @@ end
 def exit
   puts "Goodbye"
 end
+
+def run
+  help
+  puts "Please enter a command:"
+  gets.chomp
