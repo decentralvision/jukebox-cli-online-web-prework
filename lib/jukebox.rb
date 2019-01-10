@@ -53,4 +53,5 @@ def run
     elsif input == "help"
       help
     end
+  end
 end
