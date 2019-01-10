@@ -24,7 +24,7 @@ def play(songs)
   input = gets.chomp
   if songs.include?(input)
     puts "Playing #{input}"
-  elsif input.to_i <= (songs.size)-1
+  elsif input.upcase == input && input.to_i <= (songs.size)-1
     puts "Playing #{songs[(input.to_i)-1]}"
   else
     puts "Invalid input, please try again"
