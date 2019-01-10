@@ -55,6 +55,7 @@ def run
   else
     run
   end
+  break
 end
 
 run
