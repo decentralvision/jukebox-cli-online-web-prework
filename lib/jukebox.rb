@@ -22,7 +22,8 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song = gets.chomp
-  songs.collect{|song| song.split(".")}
+  songs.each_with_index do |song, i|
+    if song == song || i+1
 end
 
 def list(songs_arr)
