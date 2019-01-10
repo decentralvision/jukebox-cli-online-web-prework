@@ -43,3 +43,4 @@ def run
   help
   puts "Please enter a command:"
   input = gets.chomp
+  while input != "exit" || input != "Exit"
